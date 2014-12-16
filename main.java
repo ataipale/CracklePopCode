@@ -1,7 +1,7 @@
 
 public class Solution {
   public static void main(String[] args) {
-    for (int n = 1; n < 101; n++) {
+    for (int n = 1; n < 201; n++) {
 
       String toprint="";
 
