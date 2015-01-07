@@ -1,7 +1,6 @@
-
-public class Solution {
+public class main {
   public static void main(String[] args) {
-    for (int n = 1; n < 201; n++) {
+    for (int n = 1; n < 101; n++) {
 
       String toprint="";
 
@@ -13,7 +12,7 @@ public class Solution {
         toprint += "Pop";
       }
 
-      if (toprint.length == 0) {
+      if (toprint.length() == 0) {
          System.out.println(n);
       } else {
         System.out.println(toprint);
@@ -21,3 +20,4 @@ public class Solution {
     }
   }
 }
+
